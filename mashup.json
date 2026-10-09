@@ -1,0 +1,141 @@
+{
+  "id": "sigf/skyrim-celeste-takeover",
+  "version": "1.0.0",
+  "name": "Celeste Takeover",
+  "tagline": "Bring Celeste into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "skyrim",
+      "role": "host",
+      "engine": "Skyrim Special Edition (Creation Engine, Papyrus) + headless plugin builder (Mutagen) + PapyrusCompiler",
+      "apps": {
+        "steam": "489830"
+      }
+    },
+    {
+      "game": "celeste",
+      "role": "guest",
+      "label": "Celeste"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "skyrim",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "skyrim-celeste-takeover.zip",
+          "dst": "{game}/Data",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Meshes/sigf/heart.nif",
+              "sha256": "4923786ba32590c1f1536af2c962ec6b98cb4d8c8457981e3e6a1455a2607b5b"
+            },
+            {
+              "path": "Meshes/sigf/strawberry.nif",
+              "sha256": "e2d4f26537a8a16a830215960677f514dee26b2db2a2692e41fd389fac623ad6"
+            },
+            {
+              "path": "Scripts/SigfDemo.pex",
+              "sha256": "575d72f898b2cbd416730e258a6045ce95f2eae157faf58f4cac44537bac6c65"
+            },
+            {
+              "path": "Scripts/SigfKit.pex",
+              "sha256": "3330db31024b64c89d2eafc58327decea149e9aa3214d6396b72b500bb9e2764"
+            },
+            {
+              "path": "Scripts/SigfLib.pex",
+              "sha256": "9d0c02272f1fad2669146f75dd5eacad72cfea4f784f8e8dd786df0b1806fc67"
+            },
+            {
+              "path": "Scripts/SigfMod.pex",
+              "sha256": "03253831b16d16da511d537487e58643012e8cef9fdcea0de889017a22133116"
+            },
+            {
+              "path": "Scripts/SigfTracked.pex",
+              "sha256": "01bdfcc3b55bafcecead5760d07be11b2ef47a2309f25494639b2d5e8162fcef"
+            },
+            {
+              "path": "Scripts/Source/SigfDemo.psc",
+              "sha256": "0f5d8cfc4916e0a7740eb34067477e79ee86b131fc0e35aa9f8608330006f7d4"
+            },
+            {
+              "path": "Scripts/Source/SigfKit.psc",
+              "sha256": "a3213c96bdb03bbf442024c48db4cb3049cefaec107e123a662a3d7950661934"
+            },
+            {
+              "path": "Scripts/Source/SigfLib.psc",
+              "sha256": "85113ba5b7bff97bd715c28d06a44bca0c657df4033db76b3141b84ce73765f6"
+            },
+            {
+              "path": "Scripts/Source/SigfMod.psc",
+              "sha256": "9b22c77a00fb957913b1a23bf947204005e6f5a7d0142600b02e0a9a3c8c463a"
+            },
+            {
+              "path": "Scripts/Source/SigfTracked.psc",
+              "sha256": "7e2d5a99e164db45eb5eadc8c89b44b0e494ca335b28cae7422f7d3bfa01f305"
+            },
+            {
+              "path": "Sigf.esp",
+              "sha256": "8d5df1ecde8d5461c83f225439d3c5cb2761c47fb35874f0a9a4836e8e3df8e4"
+            },
+            {
+              "path": "Textures/sigf/heart_n.dds",
+              "sha256": "cf6a082b41e54d6d6dfe0c335123c5af292ae1c13b54b1895f161df8deb24227"
+            },
+            {
+              "path": "Textures/sigf/heart.dds",
+              "sha256": "f646bcc4d8f687efd3c50d18e581fb07e28ea931f68a01ff61fd87e541ced021"
+            },
+            {
+              "path": "Textures/sigf/strawberry_n.dds",
+              "sha256": "cf6a082b41e54d6d6dfe0c335123c5af292ae1c13b54b1895f161df8deb24227"
+            },
+            {
+              "path": "Textures/sigf/strawberry.dds",
+              "sha256": "8477988edfb37e6e8a84dfa151b3795211fd8691b470de21a55a856298661f27"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/skyrim-celeste-takeover/releases/download/v1.0.0/skyrim-celeste-takeover.zip",
+          "sha256": "1e702225aed6f3de8b060a21785414782e177e0850f27875e332979068eb5199",
+          "size": 1506718
+        }
+      ],
+      "overlay": "Data"
+    }
+  ],
+  "launch": [
+    {
+      "game": "skyrim",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "skyrim-celeste-takeover.zip",
+      "url": "https://github.com/SIGFAI/skyrim-celeste-takeover/releases/download/v1.0.0/skyrim-celeste-takeover.zip",
+      "sha256": "1e702225aed6f3de8b060a21785414782e177e0850f27875e332979068eb5199",
+      "size": 1506718
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/skyrim-celeste-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-8ad1868d.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "skyrim",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T03:30:06.963Z"
+}
