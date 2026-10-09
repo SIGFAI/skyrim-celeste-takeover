@@ -1,0 +1,28 @@
+{
+  "stage": "Riverwood",
+  "records": [
+    { "type": "ColorRecord", "from": "HairColor06Auburn", "id": "SigfHairMadeline", "set": { "Name": "Celeste Red", "Color": "#C91E18" } },
+    { "type": "ColorRecord", "from": "HairColor06Auburn", "id": "SigfHairBadeline", "set": { "Name": "Shadow Violet", "Color": "#6A2CB8" } },
+    { "type": "Ingestible", "from": "FoodApple", "id": "SigfStrawberry",
+      "set": { "Name": "Strawberry", "Model.File": "sigf\\strawberry.nif", "Value": 50 } },
+    { "type": "Ingestible", "from": "FoodApple", "id": "SigfHeart",
+      "set": { "Name": "Crystal Heart", "Model.File": "sigf\\heart.nif", "Value": 500 } },
+    { "type": "Npc", "from": "EncHunterNordF", "id": "SigfMadeline",
+      "set": { "Name": "Madeline", "Template": null, "Factions": [], "Configuration.TemplateFlags": 0, "HairColor": "@SigfHairMadeline",
+               "DefaultOutfit": "@DLC2DarkElfCommonOutfitBlueNoHood", "Height": 1.0 },
+      "scripts": [ { "name": "SigfTracked", "properties": { "Tag": "madeline" } } ] },
+    { "type": "Npc", "from": "EncHunterNordF", "id": "SigfBadeline",
+      "set": { "Name": "Badeline", "Template": null, "Factions": [], "Configuration.TemplateFlags": 0, "HairColor": "@SigfHairBadeline",
+               "DefaultOutfit": "@NecromancerOutfitNoHood", "Height": 1.05 },
+      "scripts": [ { "name": "SigfTracked", "properties": { "Tag": "badeline" } } ] },
+    { "type": "Explosion", "from": "crExplosionFrost01", "id": "SigfDashPuff",
+      "set": { "Damage": 0, "Force": 0, "Radius": 40, "ISRadius": 0, "ImageSpaceModifier": null } },
+    { "type": "Explosion", "from": "crExplosionFrost01", "id": "SigfHitBurst",
+      "set": { "Damage": 0, "Force": 70, "Radius": 140, "ISRadius": 0, "ImageSpaceModifier": null } },
+    { "type": "EffectShader", "from": "FrostFXShader", "id": "SigfDashFX", "set": { } },
+    { "type": "EffectShader", "from": "GhostVioletFXShader", "id": "SigfShadowFX", "set": { } }
+  ],
+  "quests": {
+    "SigfDemo": { "properties": { "Celeste": "@SigfMod", "FoodApple": "@FoodApple" } }
+  }
+}

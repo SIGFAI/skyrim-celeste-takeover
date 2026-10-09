@@ -1,0 +1,7 @@
+Celeste Takeover - moments the clip shows (ticked only when seen in preview screenshots):
+[x] 1. Snow falls on Riverwood, the title "Chapter 1: Forsaken Riverwood" appears, giant strawberries orbit the player.
+[x] 2. The player dashes (icy puffs, frost coat) and the strawberries keep circling.
+[x] 3. Giant strawberries rain from the sky; a Fus Ro Dah shout blasts them across the road (Skyrim shout meets Celeste berries).
+[x] 4. Red-haired Madelines dash-attack Badeline (purple shadow double) with ice bursts and hit knockback (Skyrim combat).
+[x] 5. Badeline falls, strawberries pop out and a glowing Crystal Heart spins up and flies into the player.
+Weak: the dash streak is subtle; the pilot's console is visible in the first seconds (kit behaviour).

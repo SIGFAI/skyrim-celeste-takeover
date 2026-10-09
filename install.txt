@@ -1,0 +1,1 @@
+Copy the contents of the release folder (Sigf.esp, Scripts, Meshes, Textures) into your Skyrim Special Edition Data folder and tick Sigf.esp in the launcher. Load any save: snow starts, strawberries circle you, and Madelines and Badeline fight nearby.
